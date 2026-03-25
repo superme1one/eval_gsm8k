@@ -29,7 +29,7 @@ The 8-shot prompt is from the [lm-evaluation-harness gsm8k-cot](https://github.c
 ## cot zero-shot
 use the Chain of Thought prompt "Let's think step by step." before answering the question.
 
-`python eval_gsmk_zero_shot.py --model <model_name> --use_cot_prompt`
+`python eval_gsm8k_zero_shot.py --model <model_name> --use_cot_prompt`
 
 | Model           | Accuracy | Harness Accuracy |
 |-----------------|----------|------------------|
@@ -37,7 +37,7 @@ use the Chain of Thought prompt "Let's think step by step." before answering the
 
 ## zero-shot
 
-`python eval_gsmk_zero_shot.py --model <model_name>`
+`python eval_gsm8k_zero_shot.py --model <model_name>`
 
 | Model           | Accuracy |
 |-----------------|----------|
